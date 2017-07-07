@@ -1,0 +1,5 @@
+{
+    "name": "Spotlight",
+    "plugins": ["./../../src/plugins/categories"],
+    "categoryfile" : "./../../demo/categories.json"
+}

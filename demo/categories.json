@@ -1,0 +1,8 @@
+{
+    "CategoryA" : {
+        "displayName" : "Classes"
+    },
+    "CategoryB" : {
+        "displayName" : "Interfaces"
+    }
+}
