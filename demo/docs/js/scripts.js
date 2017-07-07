@@ -17,6 +17,6 @@ $(function () {
     //Responsive menu
         $("aside > header").click(function () { $("aside").toggleClass("extended") })
 
-    //
-        if (/[^/]+$/i.test(window.location.href)) { $("pre:has(code)").wrap("<div class='card examples'></div>") }
+    //Card fix for home page
+        if ((/[^/]+$/i.test(window.location.href))||(window.location.href.substr(-1) == "/")) { $("pre:has(code)").wrap("<div class='card examples'></div>") }
 })
