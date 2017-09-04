@@ -18,6 +18,7 @@
     "build": "node ./src/build.js"
   },
   "config": {
+    "project_name": "Spotlight theme - for JSDoc 3",
     "jsdoc_source": "../demo/demo.js",
     "jsdoc_output": "../demo/docs",
     "jsdoc_config": "../demo/conf.json",
