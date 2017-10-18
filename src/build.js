@@ -20,7 +20,7 @@
 
 //Scripts
     console.log("Scripts minification :")
-    exit += execute("Babili", "../node_modules/.bin/babili", [path.join(__dirname, "static/js/scripts.js"), "-o", path.join(__dirname, "static/js/scripts.min.js")])
+    exit += execute("Babel-minify", "../node_modules/.bin/babel-minify", [path.join(__dirname, "static/js/scripts.js"), "-o", path.join(__dirname, "static/js/scripts.min.js")])
 
 //Style
     console.log("Styles minification :")
@@ -38,9 +38,9 @@
                 let pckg = path.join.apply(null, bin)
                 if (!fs.existsSync(pckg)) { throw new Error(`${name} isn't installed`) }
             //Execute command
-                let c = spawn(pckg, args, {shell:true})
+                let c = spawn(pckg, args, {shell:true, stdio:["inherit", "pipe", "pipe"]})
             //Output
-                if (c.stderr.length) { throw new Error(c.stderr) }
+                if (c.stderr.length) { throw new Error(c.stderr.toString().replace(/\n*$/, "")) }
                 console.log("    \x1b[32m%s\x1b[0m", "Success")
                 return 0
         } catch (e) {

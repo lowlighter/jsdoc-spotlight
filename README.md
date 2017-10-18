@@ -4,6 +4,8 @@ This is a template for [JSDoc 3](https://github.com/jsdoc3/jsdoc).
 * [Live demo](https://lowlighter.github.io/jsdoc-spotlight/demo)
 * [About](https://lowlight.fr/en/blog/documentation-template/)
 
+![Image of Spotlight template](https://github.com/lowlighter/jsdoc-spotlight/raw/master/demo/imgs/demo.gif)
+
 ## Getting Started
 You'll need to run the following command the first time to install dependencies.
 ```shell
