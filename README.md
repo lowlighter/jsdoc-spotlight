@@ -1,8 +1,7 @@
 # Spotlight
 This is a template for [JSDoc 3](https://github.com/jsdoc3/jsdoc).
 
-* [Live demo](https://lowlighter.github.io/jsdoc-spotlight/demo)
-* [About](https://lowlight.fr/en/blog/documentation-template/)
+* [Live demo](https://lowlight.fr/jsdoc-spotlight/demo/)
 
 ![Image of Spotlight template](https://github.com/lowlighter/jsdoc-spotlight/raw/master/demo/imgs/demo.gif)
 
