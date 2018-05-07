@@ -1,6 +1,7 @@
 # Spotlight
 This is a template for [JSDoc 3](https://github.com/jsdoc3/jsdoc).
 
+* [GitHub](https://github.com/lowlighter/jsdoc-spotlight)
 * [Live demo](https://lowlight.fr/jsdoc-spotlight/demo/)
 
 ![Image of Spotlight template](https://github.com/lowlighter/jsdoc-spotlight/raw/master/demo/imgs/demo.gif)
@@ -57,4 +58,4 @@ The template is designed to support mobile devices, but is optimized for desktop
 ## License
 This project is licensed under the MIT License.
 
-See [LICENSE.md](https://github.com/lowlighter/file-system/blob/master/LICENSE.md) file for details.
+See [LICENSE.md](https://github.com/lowlighter/jsdoc-spotlight/blob/master/LICENSE.md) file for details.
